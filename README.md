@@ -5,9 +5,9 @@ The solution is designed to provide a robust base for autonomous vehicle systems
 
 
 # KEY FEATURES:
-Edge Detection: Detects lane boundaries using the Canny algorithm.
+**Edge Detection:** Detects lane boundaries using the Canny algorithm.
 
-Region of Interest (ROI): Focuses only on the part of the image most likely to contain lanes (road surface).
+**Region of Interest (ROI):** Focuses only on the part of the image most likely to contain lanes (road surface).
 
 Hough Transform: Accurately detects line segments representing lanes.
 
