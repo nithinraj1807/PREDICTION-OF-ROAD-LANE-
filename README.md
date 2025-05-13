@@ -4,3 +4,19 @@ Using computer vision techniques such as Canny edge detection, Gaussian blurring
 The solution is designed to provide a robust base for autonomous vehicle systems, driver-assistance technologies, and advanced visual navigation modules.
 
 
+Key Features:
+Edge Detection: Detects lane boundaries using the Canny algorithm.
+
+Region of Interest (ROI): Focuses only on the part of the image most likely to contain lanes (road surface).
+
+Hough Transform: Accurately detects line segments representing lanes.
+
+Perspective Transformation: Warps the road image to a bird’s-eye view for better lane analysis.
+
+Histogram Analysis: Identifies peak lane positions from the lower half of the image.
+
+Lane Type Classification: Differentiates between solid and dashed lines based on pixel density.
+
+Visual Feedback: Combines intermediate outputs (edge map, mask, warped view) into a single collage for step-by-step analysis.
+
+Real-Time Processing: Works with video input and outputs processed video with overlaid lane data.
